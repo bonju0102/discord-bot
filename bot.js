@@ -3,8 +3,9 @@
 
 const Discord = require( 'discord.js' );
 const logger = require( 'winston' );
+const utils = require( './utils/utils' );
+const config = require( `./config/${process.env.NODE_ENV}_config` );
 
-const auth = require( './auth.json' );
 
 // Configure logger settings
 logger.remove( logger.transports.Console );
@@ -49,4 +50,4 @@ bot.on( 'messageCreate', async ( msg ) => {
 })
 
 // 登入 bot
-bot.login( auth.token );
+bot.login( utils.aesDecode(config.DISCORD_TOKEN) );
