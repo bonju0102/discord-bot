@@ -5,6 +5,11 @@ const path = require( 'path' );
 const utils = require( './utils/utils' );
 const config = require( `./config/${process.env.NODE_ENV}_config` );
 
+const channelIdList = [
+    "1000794418930012212", // Miya大廳
+    "1000484428562317392" // Dev大廳
+]
+
 const EarthQuakeDetector = require( './models/EarthquakeDetector' );
 
 // Configure logger settings
@@ -39,10 +44,13 @@ logger.level = 'debug';
         EarthQuakeDetector.on( 'newEarthQuake', ( eq ) => {
             const time = eq.reportContent.substring( 0, 11 );
             const title = eq.reportContent.substring( 11 );
-            client.channels.cache.get( '1000484428562317392' ).send({
-                content: `${time}\n${title}`,
-                files: [ eq.reportImageURI ]
-            });
+
+            for ( let channelId of channelIdList ) {
+                client.channels.cache.get( channelId ).send({
+                    content: `《地震速報》\n${time}\n${title}`,
+                    files: [ eq.reportImageURI ]
+                });
+            }
         });
     });
 

@@ -25,7 +25,7 @@ class EarthquakeDetector extends EventEmitter {
                 "Authorization": config.CWB_TOKEN,
                 "limit": 5,
                 "format": "JSON",
-                // "areaName": "臺北市",
+                "areaName": "臺北市",
             }
         }).then( res => {
             const earthquakeInfos = res.data.records;
