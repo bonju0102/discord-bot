@@ -2,6 +2,78 @@
     "datasetDescription": "地震報告",
     "earthquake": [
         {
+            "earthquakeNo": 111144,
+            "reportType": "地震報告",
+            "reportColor": "綠色",
+            "reportContent": "09/23-02:54臺東縣東河鄉發生規模4.5有感地震，最大震度臺東縣東河4級。",
+            "reportImageURI": "https://scweb.cwb.gov.tw/webdata/OLDEQ/202209/2022092302542145144_H.png",
+            "reportRemark": "本報告係中央氣象局地震觀測網即時地震資料地震速報之結果。",
+            "web": "https://scweb.cwb.gov.tw/zh-tw/earthquake/details/2022092302542145144",
+            "shakemapImageURI": "https://scweb.cwb.gov.tw/webdata/drawTrace/plotContour/2022/2022144i.png",
+            "earthquakeInfo": {
+                "originTime": "2022-09-23 02:54:21",
+                "source": "中央氣象局",
+                "depth": {
+                    "value": 9.8,
+                    "unit": "公里"
+                },
+                "epiCenter": {
+                    "location": "臺東縣政府北北東方  17.3  公里 (位於臺東縣東河鄉)",
+                    "epiCenterLat": {
+                        "value": 22.9,
+                        "unit": "度"
+                    },
+                    "epiCenterLon": {
+                        "unit": "度",
+                        "value": 121.22
+                    }
+                },
+                "magnitude": {
+                    "magnitudeType": "芮氏規模",
+                    "magnitudeValue": 4.5
+                }
+            },
+            "intensity": {
+                "shakingArea": []
+            }
+        },
+        {
+            "earthquakeNo": 111143,
+            "reportType": "地震報告",
+            "reportColor": "綠色",
+            "reportContent": "09/22-22:15臺東縣東河鄉發生規模4.0有感地震，最大震度臺東縣東河4級。",
+            "reportImageURI": "https://scweb.cwb.gov.tw/webdata/OLDEQ/202209/2022092222154940143_H.png",
+            "reportRemark": "本報告係中央氣象局地震觀測網即時地震資料地震速報之結果。",
+            "web": "https://scweb.cwb.gov.tw/zh-tw/earthquake/details/2022092222154940143",
+            "shakemapImageURI": "https://scweb.cwb.gov.tw/webdata/drawTrace/plotContour/2022/2022143i.png",
+            "earthquakeInfo": {
+                "originTime": "2022-09-22 22:15:49",
+                "source": "中央氣象局",
+                "depth": {
+                    "value": 5,
+                    "unit": "公里"
+                },
+                "epiCenter": {
+                    "location": "臺東縣政府北北東方  25.4  公里 (位於臺東縣東河鄉)",
+                    "epiCenterLat": {
+                        "value": 22.95,
+                        "unit": "度"
+                    },
+                    "epiCenterLon": {
+                        "unit": "度",
+                        "value": 121.27
+                    }
+                },
+                "magnitude": {
+                    "magnitudeType": "芮氏規模",
+                    "magnitudeValue": 4
+                }
+            },
+            "intensity": {
+                "shakingArea": []
+            }
+        },
+        {
             "earthquakeNo": 111142,
             "reportType": "地震報告",
             "reportColor": "綠色",
@@ -619,130 +691,6 @@
             },
             "intensity": {
                 "shakingArea": []
-            }
-        },
-        {
-            "earthquakeNo": 111128,
-            "reportType": "地震報告",
-            "reportColor": "綠色",
-            "reportContent": "09/18-17:46花蓮縣富里鄉發生規模4.8有感地震，最大震度花蓮縣富里4級。",
-            "reportImageURI": "https://scweb.cwb.gov.tw/webdata/OLDEQ/202209/2022091817463248128_H.png",
-            "reportRemark": "本報告係中央氣象局地震觀測網即時地震資料地震速報之結果。",
-            "web": "https://scweb.cwb.gov.tw/zh-tw/earthquake/details/2022091817463248128",
-            "shakemapImageURI": "https://scweb.cwb.gov.tw/webdata/drawTrace/plotContour/2022/2022128i.png",
-            "earthquakeInfo": {
-                "originTime": "2022-09-18 17:46:32",
-                "source": "中央氣象局",
-                "depth": {
-                    "value": 6.6,
-                    "unit": "公里"
-                },
-                "epiCenter": {
-                    "location": "花蓮縣政府南南西方  91.0  公里 (位於花蓮縣富里鄉)",
-                    "epiCenterLat": {
-                        "value": 23.23,
-                        "unit": "度"
-                    },
-                    "epiCenterLon": {
-                        "unit": "度",
-                        "value": 121.28
-                    }
-                },
-                "magnitude": {
-                    "magnitudeType": "芮氏規模",
-                    "magnitudeValue": 4.8
-                }
-            },
-            "intensity": {
-                "shakingArea": []
-            }
-        },
-        {
-            "earthquakeNo": 111127,
-            "reportType": "地震報告",
-            "reportColor": "黃色",
-            "reportContent": "09/18-17:39花蓮縣富里鄉發生規模5.8有感地震，最大震度花蓮縣富里5強。",
-            "reportImageURI": "https://scweb.cwb.gov.tw/webdata/OLDEQ/202209/2022091817395658127_H.png",
-            "reportRemark": "本報告係中央氣象局地震觀測網即時地震資料地震速報之結果。",
-            "web": "https://scweb.cwb.gov.tw/zh-tw/earthquake/details/2022091817395658127",
-            "shakemapImageURI": "https://scweb.cwb.gov.tw/webdata/drawTrace/plotContour/2022/2022127i.png",
-            "earthquakeInfo": {
-                "originTime": "2022-09-18 17:39:56",
-                "source": "中央氣象局",
-                "depth": {
-                    "value": 9.5,
-                    "unit": "公里"
-                },
-                "epiCenter": {
-                    "location": "花蓮縣政府南南西方  86.8  公里 (位於花蓮縣富里鄉)",
-                    "epiCenterLat": {
-                        "value": 23.27,
-                        "unit": "度"
-                    },
-                    "epiCenterLon": {
-                        "unit": "度",
-                        "value": 121.29
-                    }
-                },
-                "magnitude": {
-                    "magnitudeType": "芮氏規模",
-                    "magnitudeValue": 5.8
-                }
-            },
-            "intensity": {
-                "shakingArea": [
-                    {
-                        "areaDesc": "臺北市地區",
-                        "areaName": "臺北市",
-                        "infoStatus": "observe",
-                        "areaIntensity": {
-                            "value": 1,
-                            "unit": "級"
-                        },
-                        "eqStation": [
-                            {
-                                "stationName": "臺北市",
-                                "stationCode": "TAP",
-                                "infoStatus": "observe",
-                                "azimuth": {
-                                    "value": 186.56,
-                                    "unit": "度"
-                                },
-                                "distance": {
-                                    "unit": "公里",
-                                    "value": 197.66
-                                },
-                                "pga": {
-                                    "ewComponent": 0.87,
-                                    "nsComponent": 1,
-                                    "vComponent": 0.49,
-                                    "intScaleValue": 1.07,
-                                    "unit": "gal"
-                                },
-                                "pgv": {
-                                    "ewComponent": 0.11,
-                                    "nsComponent": 0.15,
-                                    "vComponent": 0.05,
-                                    "intScaleValue": 0.16,
-                                    "unit": "kine"
-                                },
-                                "stationIntensity": {
-                                    "value": 1,
-                                    "unit": "級"
-                                },
-                                "stationLat": {
-                                    "value": 25.04,
-                                    "unit": "度"
-                                },
-                                "stationLon": {
-                                    "value": 121.51,
-                                    "unit": "度"
-                                },
-                                "waveImageURI": "https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2022/2022127/1-TAP.gif"
-                            }
-                        ]
-                    }
-                ]
             }
         }
     ]

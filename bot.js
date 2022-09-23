@@ -47,7 +47,7 @@ logger.level = 'debug';
 
             for ( let channelId of channelIdList ) {
                 client.channels.cache.get( channelId ).send({
-                    content: `《地震速報》\n${time}\n${title}`,
+                    content: `@everyone\n《地震速報》\n${time}\n${title}`,
                     files: [ eq.reportImageURI ]
                 });
             }

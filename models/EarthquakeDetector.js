@@ -23,7 +23,7 @@ class EarthquakeDetector extends EventEmitter {
         axios.get( this.baseUrl, {
             params: {
                 "Authorization": config.CWB_TOKEN,
-                "limit": 5,
+                // "limit": 5,
                 "format": "JSON",
                 "areaName": "臺北市",
             }
